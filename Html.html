@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DIAL WAVE SOLUTION - Clone</title>
+        <style>
+            /* General style */
+            body {
+                font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Light gray background */
+            color: #333; /* Dark gray text */
+            }
+            
+            /* Header Styles */
+                header {
+            background-color: wheat ;
+            color: #333;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            }
+
+            .header-content {
+                max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            }
+
+            .header-content img.profile-picture {
+                width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular profile picture */
+            object-fit: cover;
+            border: 5px solid #fff; /* White border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            }
+
+            .header-content h1{
+                font-size: 2.5rem; /* Larger heading */
+            margin-bottom: 10px;
+            }
+
+            .header-content p {
+                font-style: italic;
+            }
+
+            /* Navigation Styles */
+            nav {
+                background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Ensure navigation stays on top */
+            }
+            
+            nav ul{
+                list-style-type: none;
+            padding: 0;
+            }
+
+            nav ul li {
+            display: inline;
+            margin: 0 20px;
+            }
+
+            nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold; /* Bold navigation links */
+            transition: color 0.3s;
+           }
+
+           
+        nav ul li a:hover {
+            color: #ffd700; /* Yellow on hover */
+        }
+
+        /*Section Style */
+        .section {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            transition: background-color 0.3s, color 0.3s;
+            scroll-margin-top: 100px; /* Adjust to match your header height */
+        }
+
+        .section h2 {
+            font-size: 2.5rem; /* Larger headings */
+            margin-bottom: 1rem; /* More spacing below headings */
+        }
+
+        .section p{
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Button Style */
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ffd700; /* Yellow on hover */
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            }      
+            
+            footer p{
+                margin: 0;
+            }
+
+            /*Media queries for responsiveness */
+            @media (max-width: 768px) {
+            .header-content img.profile-picture {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        .header-content h1 {
+                font-size: 2rem; /* Adjusted font size for smaller screens */
+            }
+
+            .section {
+                padding: 1.5rem;
+                font-size: 0.9rem; /* Smaller text size */
+            }
+        </style>
+
+    </head>
+    <body>
+        <button onclick="showAlert()">Click ME</button>
+        <script>
+            function showAlert() {
+                alert("Hello,Welcome To Our Website..!");
+            }
+        </script>
+
+        <header>
+            <div class="header-content">
+                <img src="c:\Users\marde\Downloads\IMG-20240611-WA0002.jpg" alt="Your Profile Picture" class="profile-picture">
+                <h1>DIAL WAVE SOLUTION</h1>
+                <p><em>Crafting Connections, Inspiring Growth</em></p>    
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>    
+        </nav>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>At DIAL WAVE SOLUTION, we specialize in providing comprehensive mass tort services tailored to meet the unique needs of our clients. With 2 years of experience in the legal industry, we have established ourselves as a trusted partner for individuals and law firms navigating complex litigation.</p>
+            <p>Our mission is to deliver unparalleled support and guidance throughout every stage of the mass tort process. From case evaluation and client intake to settlement negotiation and resolution, our dedicated team of legal professionals is committed to achieving the best possible outcomes for those we serve.</p>
+            <p>What sets us apart is our unwavering dedication to client satisfaction and our proven track record of success in handling a wide range of mass tort cases. We understand the challenges our clients face and are dedicated to providing personalized attention, strategic counsel, and effective representation every step of the way.</p>
+            <p>At DIAL WAVE SOLUTION, we pride ourselves on our reputation for integrity, professionalism, and excellence in legal service. Whether you're an individual seeking compensation for injuries or a law firm looking to streamline your mass tort practice, we are here to help you achieve your goals.</p>
+            <p>Contact us today to learn more about how we can assist you with your mass tort needs.</p>
+        </section>
+        
+        <section id="details" class="section">
+            <h2>Details</h2>
+            <p><b>Industry:</b> Marketing Services</p>
+            <p><b>Company Size:</b> 11-50 employees</p>
+            <p><b>Founded:</b> 2022</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Please mail for any support or enquiry:</p>
+            <p><b>Email:</b> support@dialwavesolution.com</p>
+            <p><b>Office Address:</b> Dial Wave Solution Pvt. Ltd., Pimple Saudagar, Pune 411027</p>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 DialWaveSolution</p>
+        </footer>
+    </body>
+</html>
